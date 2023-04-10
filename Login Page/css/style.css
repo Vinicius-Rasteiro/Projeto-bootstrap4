@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;500;700&display=swap');
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,159,255,1) 100%);
+    font-family: 'Chivo Mono', monospace;
+    width: 100vw;
+    height: 100vh;
+    color: black;
+}
+
+.container{
+    width: 33vw;
+    height: 460px;
+    /* background: rgb(237,244,247);
+    background: linear-gradient(45deg, rgba(237,244,247,0.5) 0%, rgba(239,249,255,0.5) 47%, rgba(245,251,255,0.5) 100%);  */
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+}
+
+.titulo{
+    padding: 1.4rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.login{
+    padding: .7rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.campos-input{
+    padding: .4rem;
+    border: none;
+   border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.452);
+}
+
+.mostrar-senha{
+    padding-bottom: .5rem;
+}
+
+.forgotpassword{
+    font-size: .9rem;
+    padding-top: 0;
+    text-decoration: none;
+}
+
+.btn{
+    padding: .6rem 1.5rem;
+    width: 180px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 157, 255, 0.61);
+    color: white;
+
+}
+
+
+.entre-com{
+    padding: 1rem .5rem .5rem .5rem;
+}
+
+.icons{
+    width: 180px;
+}
+
+.possuir-conta{
+    padding: .7rem;
+    font-size: 1rem;
+}
+
+.inscrever{
+    padding: 0 .7rem .7rem .7rem;
+}
+
+.icon-login{
+    color: black;
+    font-size: 2rem;
+}

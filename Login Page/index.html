@@ -12,28 +12,17 @@
 </head>
 <body>
     <main class="main">
-        <div class="container">
-            <section class="form">
-                <h1 class="titulo">Login</h1>
-                <label for="email" class="email login">E-mail</label>
-                <input type="email" id="email" class="campos-input">
-                <label for="password" class="senha login">Senha</label>
-                <input type="password" id="password" class="campos-input">
-                <label for="check" class="mostrar-senha login">Mostrar senha<input type="checkbox" id="check"></label>
-                <a href="#" class="forgotpassword login">Redefinir senha</a>
-                <button class="btn">Entrar</button>
-            </section>
-            <section class="continue">
-                <h2 class="entre-com">Ou entre com</h2>
-                <div class="icons">
-                    <a href="#" class="icon-login"><i class="fa-brands fa-google-plus"></i></a>
-                    <a href="#" class="icon-login"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#" class="icon-login"><i class="fa-brands fa-github"></i></a>
-                </div>
-                <p class="possuir-conta">Não possui conta?</p>
-                <a href="#" class="inscrever">Inscreva-se</a>
-            </section>
-        </div>
+        <form action="">
+            <div class="input-email">
+                <input type="email" id="email" class="campos-input" placeholder="E-mail">
+            </div>
+            <div class="input-senha">
+            <input type="password" id="password" class="campos-input" placeholder="Senha">
+            </div>
+            <input type="submit" value="Entrar">
+        </form>
+            <p class="possuir-conta">Não possui conta?</p>
+            <a href="#" class="inscrever">Inscreva-se</a>
     </main>
 </body>
 </html>

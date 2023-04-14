@@ -1,34 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
 
 body{
-    background: #00003b;
-    font-family: 'Inter', sans-serif;
+    background: #06d69e;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 main{
     background-color: white;
     width: 350px;
     height: 40vh;
+    border: solid 1px black;
+    border-radius: 15px;
 }
 
 .campos-input{
 
-    margin-bottom: 1.3rem;
+    margin-bottom: .1rem;
+    border: none;
+    font-weight: 600;
+}
+
+.campos-input:focus{
+    box-shadow: 0;
+    outline: 0;
+}
+
+.underline{
+    border-bottom: rgba(0, 0, 0, 0.8) 1px solid;
+    margin-bottom: .8rem;
 }
 
 
+.btn{
+    width: 100%;
+    margin-bottom: .8rem;
+    padding: .3rem;
+    border-radius: 15px;
+    border: black 1px solid;;
+    font-weight: 600;
+    background-color: #15c4ff;
+    transition: .5s;
+    
+}
+
+.btn:hover{
+    letter-spacing: 2px;
+    cursor: pointer;
+    background-color: #15c4ff88;
+    
+}
+
+.criar-conta{
+    margin-bottom: .4rem;
+    font-weight: 600;
+}
+
+.inscrever{
+    color: #15c4ff;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.inscrever:hover{
+    cursor: pointer;
+    text-decoration:underline;
+    letter-spacing: 1px;
+
+}
 
 
-
-
-
-
-
-
-
-
-
-/* celular */
 @media screen and (min-width:320px) {
 
     main{
@@ -38,22 +78,5 @@ main{
     }
      
  }
- 
- /* tablet */
- @media screen and (min-width:480px) { 
- 
-     body{
-         background-color: yellowgreen;
-     }
-     
- }
- 
- /* desktop */
- @media screen and (min-width:1024px) { 
- 
-     body{
-         background-color: purple;
-     }
-     
- }
+
  

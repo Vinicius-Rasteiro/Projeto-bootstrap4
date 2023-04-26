@@ -12,19 +12,28 @@
 </head>
 <body>
     <main class="main">
-        <form action="">
-            <div class="input-email">
-                <input type="email" id="email" class="campos-input" placeholder="E-mail">
+        <h1>Bem-Vindo</h1>
+        <div class="user-img"><i class="fa-regular fa-user" style="color: #ffffff;"></i></div>
+        <ul id="aviso-erro"></ul>
+        <form action="" id="formulario-login">
+            <div class="input-email input">
+                <i class="fa-sharp fa-solid fa-person" style="color: rgba(255, 255, 255, 0.5);"></i>
+                <input type="text" id="usuario" class="campos-input" placeholder="Usuário" autocomplete="off" name="usuario" maxlength="8">
             </div>
             <div class="underline"></div>
-            <div class="input-senha">
-                <input type="password" id="password" class="campos-input" placeholder="Senha">
+            <div class="input-senha input">
+                <i class="fa-sharp fa-solid fa-lock" style="color: rgba(255, 255, 255, 0.5);"></i>
+                <input type="password" id="password" class="campos-input" placeholder="Senha" name="senha" maxlength="8">
             </div>
             <div class="underline"></div>
             <input type="submit" value="Entrar" class="btn">
         </form>
+        <div class="rodape-form">
             <p class="criar-conta">Não possui conta?</p>
             <a href="#" class="inscrever">Inscreva-se</a>
+        </div>
     </main>
+
+    <script src="js/validaUsuario.js"></script>
 </body>
 </html>

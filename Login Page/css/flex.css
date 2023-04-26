@@ -1,9 +1,7 @@
 body{
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    min-width: 100vw;
+    align-items: center;  
 }
 
 main{
@@ -12,3 +10,19 @@ main{
     align-items: center;
     justify-content: center;
 }
+
+.user-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    justify-content:space-around;
+}
+
+.
